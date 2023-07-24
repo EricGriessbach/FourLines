@@ -85,7 +85,7 @@ document.addEventListener('keydown', function(event) {
 
         if (!continuousMovementInterval) {
             continuousMovementInterval = setInterval(() => {
-                const directionMap = { w: 'left', s: 'right', a: 'left', d: 'right', i: 'left', k: 'right', j: 'left', l: 'right' };
+                const directionMap = { w: 'left', s: 'right', a: 'right', d: 'left', i: 'left', k: 'right', j: 'left', l: 'right' };
                 
                 for (let key in keys) {
                     if (keys[key]) { // If this key is pressed
